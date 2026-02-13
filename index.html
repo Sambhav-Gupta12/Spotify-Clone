@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navigation">
+        <div class="left">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 168 168" width="35" height="35" role="img"
+                aria-label="Spotify logo (black on white)">
+                <title>Spotify logo (black on white)</title>
+                <!-- white background -->
+                <rect width="168" height="168" fill="#ffffff" />
+                <!-- outer circle -->
+                <circle cx="84" cy="84" r="84" fill="#ffffff" />
+                <!-- three curved lines -->
+                <path
+                    d="M119.4 116.9c-1.1 0-2.2-.3-3.1-1-17.1-10.5-38.7-12.9-64.2-7.2-2.5.6-5.1-1-5.7-3.5-.6-2.5 1-5.1 3.5-5.7 27.7-6.1 51.6-3.4 70.5 8.3 2.2 1.4 2.9 4.3 1.5 6.5-.9 1.3-2.4 2.1-3.9 2.1zm4.4-18.8c-1.3 0-2.5-.3-3.7-1-19.7-12-49.6-15.6-72.8-8.7-2.7.8-5.5-.7-6.3-3.4-.8-2.7.7-5.5 3.4-6.3 25.3-7.6 57.5-3.8 79.6 9.3 2.4 1.5 3.2 4.7 1.7 7.1-1 1.8-2.8 3-4.9 3zm5-19.8c-1.5 0-3-.4-4.3-1.2-22.6-13.8-60.3-15.1-82.1-8.5-3 .9-6.2-.8-7.1-3.8-.9-3 .8-6.2 3.8-7.1 24.9-7.5 65.6-6 91.2 9.8 2.8 1.7 3.7 5.4 2 8.2-1.1 1.9-3.1 2.9-5.1 2.9z"
+                    fill="#000000" />
+            </svg>
+
+            <a href="/">
+                <div class="home"><svg data-encore-id="icon" role="img" aria-hidden="true" height="30" width="30"
+                        class="e-91000-icon e-91000-baseline" viewBox="0 0 24 24">
+                        <path
+                            d="M13.5 1.515a3 3 0 0 0-3 0L3 5.845a2 2 0 0 0-1 1.732V21a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-6h4v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V7.577a2 2 0 0 0-1-1.732z"
+                            fill="#ffffff"></path>
+                    </svg>
+
+                </div>
+            </a>
+
+            <div class="search">
+                <div class="L">
+                    <svg data-encore-id="icon" role="img" aria-hidden="true" height="25" width="25"
+                        class="e-91000-icon e-91000-baseline MpoH5sdgCUbPL5LCl3Cy" data-testid="search-icon"
+                        viewBox="0 0 24 24"
+                        style="--encore-icon-height: var(--encore-graphic-size-decorative-larger-3); --encore-icon-width: var(--encore-graphic-size-decorative-larger-3);">
+                        <path
+                            d="M10.533 1.27893C5.35215 1.27893 1.12598 5.41887 1.12598 10.5579C1.12598 15.697 5.35215 19.8369 10.533 19.8369C12.767 19.8369 14.8235 19.0671 16.4402 17.7794L20.7929 22.132C21.1834 22.5226 21.8166 22.5226 22.2071 22.132C22.5976 21.7415 22.5976 21.1083 22.2071 20.7178L17.8634 16.3741C19.1616 14.7849 19.94 12.7634 19.94 10.5579C19.94 5.41887 15.7138 1.27893 10.533 1.27893ZM3.12598 10.5579C3.12598 6.55226 6.42768 3.27893 10.533 3.27893C14.6383 3.27893 17.94 6.55226 17.94 10.5579C17.94 14.5636 14.6383 17.8369 10.533 17.8369C6.42768 17.8369 3.12598 14.5636 3.12598 10.5579Z"
+                            fill="#b3b3b3">
+                        </path>
+                    </svg>
+
+                    <span class="type">What do you want to play?</span>
+                </div>
+
+                <div class="R">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="2" height="29" viewBox="0 0 2 24" role="img"
+                        aria-label="Thin red vertical line">
+                        <rect width="1" height="24" fill="#ff0000" rx="1" ry="1" />
+                    </svg>
+
+                    <a href="/"><svg class="box" data-encore-id="icon" role="img" aria-hidden="true"
+                            class="e-91000-icon e-91000-baseline" height="25" width="25" viewBox="0 0 24 24">
+                            <path d="M15 15.5c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2"></path>
+                            <path
+                                d="M1.513 9.37A1 1 0 0 1 2.291 9h19.418a1 1 0 0 1 .979 1.208l-2.339 11a1 1 0 0 1-.978.792H4.63a1 1 0 0 1-.978-.792l-2.339-11a1 1 0 0 1 .201-.837zM3.525 11l1.913 9h13.123l1.913-9zM4 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v4h-2V3H6v3H4z">
+                            </path>
+                        </svg></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="l">
+                <a href="/">
+                    <div>Premium</div>
+                </a>
+                <a href="/">
+                    <div>Support</div>
+                </a>
+                <a href="/">
+                    <div>Download</div>
+                </a>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="r">
+                <a href="/">
+                    <div class="intall">
+                        <svg data-encore-id="icon" role="img" aria-hidden="true" class="e-91000-icon e-91000-baseline"
+                            fill="currentColor" height="17" width="17" viewBox="0 0 16 16"
+                            style="--encore-icon-height: var(--encore-graphic-size-decorative-smaller); --encore-icon-width: var(--encore-graphic-size-decorative-smaller);">
+                            <path
+                                d="M4.995 8.745a.75.75 0 0 1 1.06 0L7.25 9.939V4a.75.75 0 0 1 1.5 0v5.94l1.195-1.195a.75.75 0 1 1 1.06 1.06L8 12.811l-.528-.528-.005-.005-2.472-2.473a.75.75 0 0 1 0-1.06">
+                            </path>
+                            <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13">
+                            </path>
+                        </svg>
+
+                        <span class="app">Install App</span>
+                    </div>
+                </a>
+
+                <a href="/">
+                    <div class="sign">Sign up</div>
+                </a>
+            </div>
+
+            <a class="dec" href="/">
+                <div class="login">Log in</div>
+            </a>
+        </div>
+
+    </div>
+
+    <div class="parent">
+
+        <div class="library">
+            <div class="header">
+                <div class="your">Your Library</div>
+                <div class="plus">
+                    <svg data-encore-id="icon" role="img" aria-hidden="true" class="e-91000-icon e-91000-baseline"
+                        height="17" width="17" viewBox="0 0 16 16"
+                        style="--encore-icon-height: var(--encore-graphic-size-decorative-smaller); --encore-icon-width: var(--encore-graphic-size-decorative-smaller);">
+                        <path
+                            d="M15.25 8a.75.75 0 0 1-.75.75H8.75v5.75a.75.75 0 0 1-1.5 0V8.75H1.5a.75.75 0 0 1 0-1.5h5.75V1.5a.75.75 0 0 1 1.5 0v5.75h5.75a.75.75 0 0 1 .75.75">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="playlist">
+                <div class="cyfp">Create your first playlist</div>
+                <div class="iewhyo">It's easy, we'll help you</div>
+                <a href="/">
+                    <div class="create">Create playlist</div>
+                </a>
+            </div>
+
+            <div class="playlist">
+                <div class="cyfp">Let's find some podcasts to follow</div>
+                <div class="iewhyo">We'll keep you updated on new episodes</div>
+                <a href="/">
+                    <div class="create">Browse podcasts</div>
+                </a>
+            </div>
+
+            <div class="tags">
+                <span class="tag">Legal</span>
+                <span class="tag">Safety & Privacy Center</span>
+                <span class="tag">Privacy Policy</span>
+                <span class="tag">Cookies</span>
+            </div>
+
+            <div class="mtags">
+                <span class="tag">About Ads</span>
+                <span class="tag">Accessibility</span>
+            </div>
+
+            <div class="cookies">Cookies</div>
+
+            <div class="english">
+                <svg data-encore-id="icon" role="img" aria-hidden="true" class="e-91000-icon e-91000-baseline"
+                    height="17" width="17" viewBox="0 0 16 16"
+                    style="--encore-icon-height: var(--encore-graphic-size-decorative-smaller); --encore-icon-width: var(--encore-graphic-size-decorative-smaller);">
+                    <path
+                        d="M8.152 16H8a8 8 0 1 1 .152 0m-.41-14.202c-.226.273-.463.713-.677 1.323-.369 1.055-.626 2.496-.687 4.129h3.547c-.06-1.633-.318-3.074-.687-4.129-.213-.61-.45-1.05-.676-1.323-.194-.235-.326-.285-.385-.296h-.044c-.055.007-.19.052-.391.296M4.877 7.25c.062-1.771.34-3.386.773-4.624q.148-.427.329-.806a6.51 6.51 0 0 0-4.436 5.43zm-3.334 1.5a6.51 6.51 0 0 0 4.436 5.43 8 8 0 0 1-.33-.806c-.433-1.238-.71-2.853-.772-4.624zm4.835 0c.061 1.633.318 3.074.687 4.129.214.61.451 1.05.677 1.323.202.244.336.29.391.297l.044-.001c.06-.01.19-.061.385-.296.226-.273.463-.713.676-1.323.37-1.055.626-2.496.687-4.129zm5.048 0c-.061 1.771-.339 3.386-.772 4.624q-.123.353-.268.674a6.5 6.5 0 0 0 4.071-5.298zm3.031-1.5a6.51 6.51 0 0 0-4.071-5.298q.145.322.268.674c.433 1.238.711 2.853.772 4.624z">
+                    </path>
+                </svg>
+
+                <div>English</div>
+            </div>
+
+        </div>
+
+        <div class="main">
+            <div class="trending">
+                <div class="head">Trending songs</div>
+                <div class="view">Show all</div>
+            </div>
+
+            <div class="grid">
+                <div class="songs">
+                   <a href="/album/1nNXvFSsDPaZwlHBtDoALy?highlight=spotify:track:4SJSsuHV6zP5UmHdMESsb7"><img src="https://i.scdn.co/image/ab67616d00001e02536569dc83842421d8ca4156" alt="Image of the song"></a>
+                    <a href="/album/1nNXvFSsDPaZwlHBtDoALy?highlight=spotify:track:4SJSsuHV6zP5UmHdMESsb7"
+                        class="Name">Wajah Bewajah</a>
+
+                    <div class="singers">
+                        <a href="/artist/5wJ1H6ud777odtZl5gG507" class="singer">Vishal Mishra,</a>
+                        <a href="/artist/5wJ1H6ud777odtZl5gG507" class="singer">Shreyas Puranik,</a>
+                        <a href="/artist/5wJ1H6ud777odtZl5gG507" class="singer">Kumaar</a>
+                    </div>
+                </div>
+                <div class="songs">
+                    <a href="/album/1nNXvFSsDPaZwlHBtDoALy?highlight=spotify:track:4SJSsuHV6zP5UmHdMESsb7"><img src="https://i.scdn.co/image/ab67616d00001e02bbd45c8d36e0e045ef640411" alt="Image of the song"></a>
+                    <a href="/album/1nNXvFSsDPaZwlHBtDoALy?highlight=spotify:track:4SJSsuHV6zP5UmHdMESsb7"
+                        class="Name">DtMF</a>
+
+                    <div class="singers">
+                        <a href="/artist/5wJ1H6ud777odtZl5gG507" class="singer">Bad Bunny</a>
+                    </div>
+                </div>
+                <div class="songs"><a href="/album/1nNXvFSsDPaZwlHBtDoALy?highlight=spotify:track:4SJSsuHV6zP5UmHdMESsb7"><img src="https://i.scdn.co/image/ab67616d00001e02c034e7aee0628ead7e9a39d8" alt="Image of the song"></a>
+                    <a href="/album/1nNXvFSsDPaZwlHBtDoALy?highlight=spotify:track:4SJSsuHV6zP5UmHdMESsb7"
+                        class="Name">Thinking of you</a>
+
+                    <div class="singers">
+                        <a href="/artist/5wJ1H6ud777odtZl5gG507" class="singer">AP Dhillon</a>
+                    </div></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

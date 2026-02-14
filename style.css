@@ -487,6 +487,7 @@ a:hover .box path {
 
 .songs{
     border-radius: 8px;
+    cursor: pointer;
     transition: background-color 300ms ease-out;
 }
 
@@ -680,4 +681,8 @@ a:hover .box path {
 
 .SIGN:hover {
     transform: scale(1.05);
+}
+
+#radio .songs .singers a:hover{
+    text-decoration: none;
 }
